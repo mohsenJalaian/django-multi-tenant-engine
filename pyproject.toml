@@ -22,7 +22,10 @@ requires-python = ">=3.11"
 dependencies = [
     "Django>=5.2",
 ]
-
+[project.urls]
+Homepage = "https://github.com/mohsenJalaian/django-multi-tenant-engine"
+Repository = "https://github.com/mohsenJalaian/django-multi-tenant-engine"
+Issues = "https://github.com/mohsenJalaian/django-multi-tenant-engine/issues"
 [tool.setuptools.packages.find]
 include = ["django_multi_tenant*"]
 exclude = ["django_multi_tenant.tests*"]
